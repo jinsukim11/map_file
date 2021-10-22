@@ -1,0 +1,378 @@
+{
+  "shapeList": [],
+  "nodeList": [
+    {
+      "id": "fa9732ed-f19e-49a0-a00a-9a31355fd227",
+      "type": "spinturn",
+      "name": "Node_07",
+      "position": {
+        "x": "4.87",
+        "y": "-4.17",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "-0.7071067811865475",
+        "w": "0.7071067811865477"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "7c78456f-6d76-4171-8dc9-054d922dc07a",
+      "type": "spinturn",
+      "name": "Node_00",
+      "position": {
+        "x": "4.870883941650002",
+        "y": "-5",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "1",
+        "w": "6.123233995736766e-17"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "6d9d4086-3335-43a5-a909-d2bfbfb031da",
+      "type": "spinturn",
+      "name": "Node_04",
+      "position": {
+        "x": "-2.13",
+        "y": "-4.17",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "8.726646259971638e-8",
+        "w": "0.9999999999999962"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "70d462ce-e974-46f2-b617-7c0dcb618457",
+      "type": "poi",
+      "name": "Node_01",
+      "position": {
+        "x": "1.118241579649955",
+        "y": "-5",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "-1",
+        "w": "6.123233995736766e-17"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "df5117e7-bb02-4595-a33c-3d6d6a6e3cca",
+      "type": "poi",
+      "name": "Node_02",
+      "position": {
+        "x": "-0.9629785726238795",
+        "y": "-5",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "1",
+        "w": "6.123233995736766e-17"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "8d1a4005-834d-4a09-8ba1-bfa7325f3f8f",
+      "type": "spinturn",
+      "name": "Node_03",
+      "position": {
+        "x": "-2.1320470445810815",
+        "y": "-5",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "0.7071067811865475",
+        "w": "0.7071067811865477"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "e629a687-0c33-4594-898c-03e8c74712b3",
+      "type": "poi",
+      "name": "Node_05",
+      "position": {
+        "x": "-0.96",
+        "y": "-4.17",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "8.726646259971638e-8",
+        "w": "0.9999999999999962"
+      },
+      "velocity": "0",
+      "isSelected": false
+    },
+    {
+      "id": "cb86e842-c192-47dd-9536-a3017e250916",
+      "type": "poi",
+      "name": "Node_06",
+      "position": {
+        "x": "1.12",
+        "y": "-4.172714997881453",
+        "z": "0"
+      },
+      "orientation": {
+        "x": "0",
+        "y": "0",
+        "z": "8.726646259971638e-8",
+        "w": "0.9999999999999962"
+      },
+      "velocity": "0",
+      "isSelected": false
+    }
+  ],
+  "linkList": [
+    {
+      "id": "bb7e6539-0470-4635-9ad5-e0388ef45e4d",
+      "name": "Link_06_07",
+      "connected": {
+        "from": "cb86e842-c192-47dd-9536-a3017e250916",
+        "to": "fa9732ed-f19e-49a0-a00a-9a31355fd227"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.5",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "38b6bec9-0992-4dde-a095-9828276dff2a",
+      "name": "Link_05_06",
+      "connected": {
+        "from": "e629a687-0c33-4594-898c-03e8c74712b3",
+        "to": "cb86e842-c192-47dd-9536-a3017e250916"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.3",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "d724deca-5b63-405b-910d-f714e64acf95",
+      "name": "Link_00_01",
+      "connected": {
+        "from": "7c78456f-6d76-4171-8dc9-054d922dc07a",
+        "to": "70d462ce-e974-46f2-b617-7c0dcb618457"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.5",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "c90faddb-0b76-4d17-bd1f-eda32b42776e",
+      "name": "Link_01_02",
+      "connected": {
+        "from": "70d462ce-e974-46f2-b617-7c0dcb618457",
+        "to": "df5117e7-bb02-4595-a33c-3d6d6a6e3cca"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.3",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "f4bfdd52-115d-4331-ac7f-eafc42cd4399",
+      "name": "Link_03_04",
+      "connected": {
+        "from": "8d1a4005-834d-4a09-8ba1-bfa7325f3f8f",
+        "to": "6d9d4086-3335-43a5-a909-d2bfbfb031da"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.5",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "d1a92a87-6d8e-4070-ae34-9ab69536a6f4",
+      "name": "Link_07_00",
+      "connected": {
+        "from": "fa9732ed-f19e-49a0-a00a-9a31355fd227",
+        "to": "7c78456f-6d76-4171-8dc9-054d922dc07a"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.5",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "91bfbd0d-97b2-4cfb-b154-b846e02da296",
+      "name": "Link_02_03",
+      "connected": {
+        "from": "df5117e7-bb02-4595-a33c-3d6d6a6e3cca",
+        "to": "8d1a4005-834d-4a09-8ba1-bfa7325f3f8f"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.5",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    },
+    {
+      "id": "b2a3abfe-eb7b-4524-bb96-6b1aca1683f5",
+      "name": "Link_04_05",
+      "connected": {
+        "from": "6d9d4086-3335-43a5-a909-d2bfbfb031da",
+        "to": "e629a687-0c33-4594-898c-03e8c74712b3"
+      },
+      "type": "line",
+      "fromLinkDrive": {
+        "direction": "front",
+        "active": "true",
+        "linear_speed": "0.3",
+        "angular_speed": "0"
+      },
+      "toLinkDrive": {
+        "direction": "front",
+        "active": "false",
+        "linear_speed": "0.2",
+        "angular_speed": "0"
+      },
+      "link_type": "unidirectional_from",
+      "limit": {
+        "velocity": {
+          "linear": "0.5",
+          "angular": "0.5"
+        }
+      }
+    }
+  ],
+  "info": {
+    "version": "1.4.0"
+  }
+}
